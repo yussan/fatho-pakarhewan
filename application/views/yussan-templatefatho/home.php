@@ -31,10 +31,8 @@
                             </li>
                             <li><a href="#features">Penggunaan</a>
                             </li>
-                            <li><a href="#reviews">Bantuan</a>
-                            </li>
-                            <li><a href="#demo">Demo</a>
-                            </li>
+                            <li><a href="#reviews">Reviews</a>
+                            </li>                           
                             <li><a href="#support">Support</a>
                             </li>
                         </ul>
@@ -92,7 +90,7 @@
                             <a href="<?php echo site_url('start/firststep?type=avertebrata');?>" class="btn btn-primary inverse btn-lg">Avertebrata</a>
                         </div>
                         <div class="tp-caption sfr hidden-xs" data-x="840" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1500" data-start="1900" data-easing="Power4.easeOut">
-                            <a href="#getApp" class="btn btn-default btn-lg">Cara Penggunaan</a>
+                            <a href="#features" class="btn btn-default btn-lg">Cara Penggunaan</a>
                         </div>
 
                     </li>                   
@@ -115,19 +113,13 @@
                 <div class="section-heading scrollpoint sp-effect3">
                     <h1>Tentang Kami</h1>
                     <div class="divider"></div>
-                    <p>Sistem Pakar Hewan</p>
+                    <p>SMAN 01 Depok Babarsari</p>
                 </div>
                 <div class="row">
-                    <h3>Tentang 1</h3>    
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis sem libero, id tempus elit dapibus id. Aliquam felis dolor, pretium nec metus vitae, consequat tincidunt mauris. Nullam sed justo vulputate, mattis metus et, placerat diam. Sed sed mauris at nulla cursus aliquet in eget arcu. Vivamus in maximus turpis, at tincidunt nisl. Cras suscipit ornare mollis. Vivamus magna nisl, ornare eget dapibus eu, sagittis ac lectus. Donec pharetra, tellus at tempor dapibus, orci turpis laoreet est, tincidunt gravida arcu diam id ex. Nullam auctor purus ac nisl imperdiet pharetra.</p>
-                </div>
-                <div class="row">
-                    <h3>Tentang 1</h3>    
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis sem libero, id tempus elit dapibus id. Aliquam felis dolor, pretium nec metus vitae, consequat tincidunt mauris. Nullam sed justo vulputate, mattis metus et, placerat diam. Sed sed mauris at nulla cursus aliquet in eget arcu. Vivamus in maximus turpis, at tincidunt nisl. Cras suscipit ornare mollis. Vivamus magna nisl, ornare eget dapibus eu, sagittis ac lectus. Donec pharetra, tellus at tempor dapibus, orci turpis laoreet est, tincidunt gravida arcu diam id ex. Nullam auctor purus ac nisl imperdiet pharetra.</p>
-                </div>
-                <div class="row">
-                    <h3>Tentang 1</h3>    
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis sem libero, id tempus elit dapibus id. Aliquam felis dolor, pretium nec metus vitae, consequat tincidunt mauris. Nullam sed justo vulputate, mattis metus et, placerat diam. Sed sed mauris at nulla cursus aliquet in eget arcu. Vivamus in maximus turpis, at tincidunt nisl. Cras suscipit ornare mollis. Vivamus magna nisl, ornare eget dapibus eu, sagittis ac lectus. Donec pharetra, tellus at tempor dapibus, orci turpis laoreet est, tincidunt gravida arcu diam id ex. Nullam auctor purus ac nisl imperdiet pharetra.</p>
+                    <p><strong>Berprestasi tinggi</strong> adalah dengan meningkatkan kualitas pembelajaran yang efektif sehingga standar kompetensi minimal dapat terkuasai 100 %, memperoleh nilai Ujian Nasional yang tinggi serta mampu bersaing dalam seleksi penerimaan mahasiswa baru di Perguruan Tinggi Negeri dan Perguruan Tinggi Swasta favorit.</p>
+                    <p><strong>Berkepribadian</strong> adalah warga sekolah memiliki kepribadian  yang mantap dan  kuat, sehingga tidak mudah terpengaruh perkembangan jaman yang negatif.</p>
+                    <p><strong>Kreatif</strong> adalah mampu memanfaatkan peluang yang ada, mampu mengembangkan potensi diri secara maksimal dalam situasi dan kondisi apapun.</p>
+                    <p><strong>Berwawasan Global</strong> adalah mampu mengikuti perkembangan global baik di bidang ilmu pengetahuan dan teknologi, membuka wawasan dunia luar serta mengambil segi ? segi positifnya untuk pengembangan diri peserta didik.</p>
                 </div>
             </div>
         </section>
@@ -137,17 +129,17 @@
                 <div class="section-heading scrollpoint sp-effect3">
                     <h1>Features</h1>
                     <div class="divider"></div>
-                    <p>Learn more about this feature packed App</p>
+                    <p>Cara penggunaan sistem pakar</p>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-sm-4 scrollpoint sp-effect1">
+                    <div class="col-md-offset-3 col-md-6 col-sm-6 scrollpoint sp-effect1">
                         <div class="media text-right feature">
                             <a class="pull-right" href="#">
                                 <i class="fa fa-cogs fa-2x"></i>
                             </a>
                             <div class="media-body">
-                                <h3 class="media-heading">User Settings</h3>
-                                Lorem ipsum dolor sit amet.
+                                <h3 class="media-heading">Aplikasi Ini Untuk Apa</h3>
+                                Aplikasi ini adalah sistem pakar untuk mengetahui klasifkasi hewani berdasarkan kunci determinasi.
                             </div>
                         </div>
                         <div class="media text-right feature">
@@ -156,86 +148,9 @@
                             </a>
                             <div class="media-body">
                                 <h3 class="media-heading">Messages Inbox</h3>
-                                Lorem ipsum dolor sit amet.
+                                Gunakan fitur contact us untuk keterangan lebih lanjut dan error report.
                             </div>
-                        </div>
-                        <div class="media text-right feature">
-                            <a class="pull-right" href="#">
-                                <i class="fa fa-users fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">Friends List</h3>
-                                Lorem ipsum dolor sit amet.
-                            </div>
-                        </div>
-                        <div class="media text-right feature">
-                            <a class="pull-right" href="#">
-                                <i class="fa fa-comments fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">Live Chat Messages</h3>
-                                Lorem ipsum dolor sit amet.
-                            </div>
-                        </div>
-                        <div class="media text-right feature">
-                            <a class="pull-right" href="#">
-                                <i class="fa fa-calendar fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">Calendar / Planner</h3>
-                                Lorem ipsum dolor sit amet.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4" >
-                        <img src="<?php echo base_url('resource')?>/assets/img/freeze/iphone-freeze.png" class="img-responsive scrollpoint sp-effect5" alt="">
-                    </div>
-                    <div class="col-md-4 col-sm-4 scrollpoint sp-effect2">
-                        <div class="media feature">
-                            <a class="pull-left" href="#">
-                                <i class="fa fa-map-marker fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">My Places</h3>
-                                Lorem ipsum dolor sit amet.
-                            </div>
-                        </div>
-                        <div class="media feature">
-                            <a class="pull-left" href="#">
-                                <i class="fa fa-film fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">Media Player™</h3>
-                                Lorem ipsum dolor sit amet.
-                            </div>
-                        </div>
-                        <div class="media feature">
-                            <a class="pull-left" href="#">
-                                <i class="fa fa-compass fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">Intuitive Statistics</h3>
-                                Lorem ipsum dolor sit amet.
-                            </div>
-                        </div>
-                        <div class="media feature">
-                            <a class="pull-left" href="#">
-                                <i class="fa fa-picture-o fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">Weather on-the-go</h3>
-                                Lorem ipsum dolor sit amet.
-                            </div>
-                        </div>
-                        <div class="media active feature">
-                            <a class="pull-left" href="#">
-                                <i class="fa fa-plus fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">And much more!</h3>
-                                Lorem ipsum dolor sit amet.
-                            </div>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
             </div>
@@ -246,7 +161,7 @@
                 <div class="section-heading inverse scrollpoint sp-effect3">
                     <h1>Reviews</h1>
                     <div class="divider"></div>
-                    <p>Read What's The People Are Saying About Us</p>
+                    <p>Lihat apa yang orang bilang tentang kami</p>
                 </div>
                 <div class="row">
                     <div class="col-md-10 col-md-push-1 scrollpoint sp-effect3">
@@ -255,14 +170,14 @@
                                 <div class="row">
                                     <div class="col-md-2">
                                         <div class="review-person">
-                                            <img src="http://api.randomuser.me/portraits/women/94.jpg" alt="" class="img-responsive">
+                                            <img src="<?php echo base_url('resource/images/avatar/hijab.jpg')?>" alt="" class="img-responsive">
                                         </div>
                                     </div>
                                     <div class="col-md-10">
                                         <div class="review-comment">
-                                            <h3>“I love Oleose, I highly rfreezemmend it, Everyone Try It Now”</h3>
+                                            <h3>“Benar berguna untuk kegiatan belajar”</h3>
                                             <p>
-                                                - Krin Fox
+                                                - Ninda Farisma
                                                 <span>
                                                     <i class="fa fa-star fa-lg"></i>
                                                     <i class="fa fa-star fa-lg"></i>
@@ -279,14 +194,14 @@
                                 <div class="row">
                                     <div class="col-md-2">
                                         <div class="review-person">
-                                            <img src="http://api.randomuser.me/portraits/men/70.jpg" alt="" class="img-responsive">
+                                            <img src="<?php echo base_url('resource/images/avatar/liz.jpg')?>" alt="" class="img-responsive">
                                         </div>
                                     </div>
                                     <div class="col-md-10">
                                         <div class="review-comment">
-                                            <h3>“Oleaose Is The Best Stable, Fast App I Have Ever Experienced”</h3>
+                                            <h3>“Akhirnya saya tahu tentang kunci determinasi”</h3>
                                             <p>
-                                                - Theodore Willis
+                                                - Aliza Fitria
                                                 <span>
                                                     <i class="fa fa-star fa-lg"></i>
                                                     <i class="fa fa-star fa-lg"></i>
@@ -303,14 +218,14 @@
                                 <div class="row">
                                     <div class="col-md-2">
                                         <div class="review-person">
-                                            <img src="http://api.randomuser.me/portraits/men/93.jpg" alt="" class="img-responsive">
+                                            <img src="<?php echo base_url('resource/images/avatar/alex.jpg')?>" alt="" class="img-responsive">
                                         </div>
                                     </div>
                                     <div class="col-md-10">
                                         <div class="review-comment">
-                                            <h3>“Keep It Up Guys Your Work Rules, Cheers :)”</h3>
+                                            <h3>“Semoga ada implementasi untuk android juga :)”</h3>
                                             <p>
-                                                - Ricky Grant
+                                                - Alex Firza
                                                 <span>
                                                     <i class="fa fa-star fa-lg"></i>
                                                     <i class="fa fa-star fa-lg"></i>
@@ -323,23 +238,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="demo">
-            <div class="container">
-                <div class="section-heading scrollpoint sp-effect3">
-                    <h1>Demo</h1>
-                    <div class="divider"></div>
-                    <p>Perhatikan dengan seksama penggunaan sistem pakar ini</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 scrollpoint sp-effect2">
-                        <div class="video-container" >
-                            <iframe src="http://player.vimeo.com/video/70984663"></iframe>
                         </div>
                     </div>
                 </div>
@@ -376,7 +274,7 @@
                                         <i class="fa fa-map-marker fa-2x"></i>
                                     </a>
                                     <div class="media-body">
-                                        <h4 class="media-heading">4, Some street, California, USA</h4>
+                                        <h4 class="media-heading">Jl. Babarsari, Caturtunggal, Depok, Sleman, Yogyakarta 55281</h4>
                                     </div>
                                 </div>
                                 <div class="media">
@@ -385,7 +283,7 @@
                                     </a>
                                     <div class="media-body">
                                         <h4 class="media-heading">
-                                            <a href="mailto:support@oleose.com">support@oleose.com</a>
+                                            <a href="mailto:support@oleose.com">support@sman1depokbabarsari.sch.id</a>
                                         </h4>
                                     </div>
                                 </div>
@@ -394,7 +292,7 @@
                                         <i class="fa fa-phone fa-2x"></i>
                                     </a>
                                     <div class="media-body">
-                                        <h4 class="media-heading">+1 234 567890</h4>
+                                        <h4 class="media-heading">0274 - 485794</h4>
                                     </div>
                                 </div>
                             </div>
