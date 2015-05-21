@@ -103,7 +103,7 @@ class Start extends Base
 
 		//perhitungan determinasi dikotomi
 		//start perhitungan determinasi  dikotomi
-			$TotalSess = count($this->session->userdata('morfologi'));
+			echo $TotalSess = count($this->session->userdata('morfologi'));
 			print_r($Sess);
 		// echo $TotalSess;
 			switch ($TotalSess) {
@@ -167,7 +167,7 @@ class Start extends Base
 			array_push($SessionData['result'], $resultarray);
 			$this->session->set_userdata($SessionData);
 			print_r($this->session->userdata('result'));
-			redirect(site_url('start/result'));//ke halaman start
+			redirect(site_url('start/result/'.$kdakhir));//ke halaman start
 		}else 
 		{			
 		redirect(site_url('start'));//ke halaman start

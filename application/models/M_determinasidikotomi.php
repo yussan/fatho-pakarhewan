@@ -35,6 +35,7 @@ class M_determinasidikotomi extends CI_Model
 	public function getHewan2($a,$b)
 	{
 		if($a==71&&$b==73){$result='001';}
+		else if($a==2&&$b==4){$result='035';}
 		else if($a==71&&$b==74){$result='002';}
 		else if($a==72&&$b==75){$result='003';}
 		else if($a==72&&$b==76){$result='004';}
@@ -45,8 +46,6 @@ class M_determinasidikotomi extends CI_Model
 		else if($a==99&&$b==100){$result='022';}
 		else if($a==99&&$b==101){$result='024';}
 		else if($a==9&&$b==10){$result='140';}
-		else if($a==31&&$b==39){$result='062';}
-		else if($a==30&&$b==33){$result='056';}
 		else if($a==44&&$b==45){$result='045';}
 		else if($a==68&&$b==70){$result='080';}
 		else{$result='0';}
@@ -62,8 +61,6 @@ class M_determinasidikotomi extends CI_Model
 		else if($a==2&&$b==3&&$c==6){$result='038';}
 		else if($a==9&&$b==11&&$c==12){$result='041';}
 		else if($a==30&&$b==32&&$c==36){$result='053';}
-		else if($a==30&&$b==32&&$c==37){$result='054';}
-		else if($a==30&&$b==32&&$c==38){$result='055';}
 		else if($a==31&&$b==40&&$c==41){$result='058';}
 		else if($a==31&&$b==40&&$c==42){$result='061';}
 		else if($a==47&&$b==49&&$c==53){$result='066';}
@@ -85,7 +82,10 @@ class M_determinasidikotomi extends CI_Model
 		else if($a==9&&$b==11&&$c==14&&$d==19){$result='050';}
 		else if($a==48&&$b==51&&$c==58&&$d==59){$result='071';}
 		else if($a==48&&$b==52&&$c==64&&$d==65){$result='075';}
+		else if($a==2&&$b==4&&$c==30&&$d==33){$result='057';}
 		else if($a==48&&$b==52&&$c==64&&$d==66){$result='076';}
+		else if($a==2&&$b==4&&$c==30&&$d==33){$result='056';}
+		else if($a==2&&$b==4&&$c==31&&$d==39){$result='062';}
 		else{$result='0';}
 		return $result;
 
@@ -93,14 +93,20 @@ class M_determinasidikotomi extends CI_Model
 
 	public function getHewan5($a,$b,$c,$d,$e)
 	{
-		if($a==9&&$b==11&&$c==13&&$d==18&&$e==21){$result='047';}
+		if($a==2&&$b==4&&$c==31&&$d==35&&$e==42){$result='060';}
+		else if($a==2&&$b==4&&$c==30&&$d==32&&$e==36){$result='053';}
+		else if($a==2&&$b==4&&$c==31&&$d==35&&$e==41){$result='058';}
+		else if($a==9&&$b==11&&$c==13&&$d==18&&$e==21){$result='047';}
 		else if($a==9&&$b==11&&$c==13&&$d==18&&$e==22){$result='048';}
 		else if($a==9&&$b==11&&$c==13&&$d==18&&$e==23){$result='049';}
 		else if($a==9&&$b==11&&$c==13&&$d==18&&$e==25){$result='051';}
 		else if($a==9&&$b==11&&$c==13&&$d==18&&$e==19){$result='052';}
 		else if($a==48&&$b==51&&$c==58&&$d==60&&$e==61){$result='072';}
 		else if($a==48&&$b==51&&$c==58&&$d==60&&$e==62){$result='073';}
+		else if($a==2&&$b==4&&$c==30&&$d==32&&$e==37){$result='054';}
+		else if($a==2&&$b==4&&$c==30&&$d==32&&$e==38){$result='055';}
 		else{$result='0';}
+		return $result;
 	}
 
 	public function getHewan6($a,$b,$c,$d,$e,$f)
