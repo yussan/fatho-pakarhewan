@@ -9,13 +9,13 @@
       </div>
   </div>
 
-  <div class="wrapper">    
-      <section id="about"> 
-          <div class="container">                
+  <div class="wrapper">
+      <section id="about">
+          <div class="container">
             <div class="section-heading scrollpoint sp-effect3">
                 <h1>Dashboard</h1>
-                <div class="divider"></div>               
-                <p><a href="<?php echo site_url('admin/logout');?>">logout</a></p>          
+                <div class="divider"></div>
+                <p><a href="<?php echo site_url('admin/logout');?>">logout</a></p>
             </div>
             <div class="row">
                 <!-- CONTENT -->
@@ -75,14 +75,16 @@
                     <td><img style="width:60px;height:60px" src="<?php echo $src;?>"/></td>
                     <td><?php echo $v['nm_hewan']?></td>
                     <td><?php echo $v['definisi']?></td>
-                    <td><a class="btn btn-default btn-xs" href="<?php echo site_url('admin/hewan?act=edit&id='.$v['kd_hewan']);?>">edit</a><a onclick="return confirm('anda yakin?')" class="btn btn-danger btn-xs" href="<?php echo site_url('admin/actionhewan?act=delete&id='.$v['kd_hewan'])?>">delete</a></td>
+                    <td><a class="btn btn-default btn-xs" href="<?php echo site_url('admin/hewan?act=edit&id='.$v['kd_hewan']);?>">edit</a>
+                       <!-- <a onclick="return confirm('anda yakin?')" class="btn btn-danger btn-xs" href="<?php echo site_url('admin/actionhewan?act=delete&id='.$v['kd_hewan'])?>">delete</a> -->
+                       </td>
                 </tr>
             <?php endforeach;?>
         </table>
-    </div>             
+    </div>
 </div>
 <!-- END OF CONTENT -->
-</div>            
+</div>
 </div>
 </section>
 
@@ -99,7 +101,7 @@
         </div>
         <div class="rights">
             <p>Copyright &copy; 2014</p>
-            <p>Template by <a href="http://www.scoopthemes.com" target="_blank">ScoopThemes</a></p>
+            <p>By <a href="#" target="_blank">Fatho</a></p>
         </div>
     </div>
 </footer>

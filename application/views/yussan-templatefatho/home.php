@@ -8,9 +8,9 @@
             </div>
         </div>
     </div>
-   
+
     <header>
-        
+
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -32,7 +32,7 @@
                             <li><a href="#features">Penggunaan</a>
                             </li>
                             <li><a href="#reviews">Reviews</a>
-                            </li>                           
+                            </li>
                             <li><a href="#support">Support</a>
                             </li>
                         </ul>
@@ -42,7 +42,7 @@
                 <!-- /.container-->
         </nav>
 
-        
+
         <!--RevSlider-->
         <div class="tp-banner-container">
             <div class="tp-banner" >
@@ -79,7 +79,7 @@
                             Sistem Pakar
                         </div>
                         <!-- <div class="tp-caption large_white_light sfr" data-x="770" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1400" data-easing="Power4.easeOut">
-                            
+
                         </div> -->
                         <div class="tp-caption large_white_light sfb" data-x="550" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1500" data-easing="Power4.easeOut">
                             Hewan 1.0
@@ -93,8 +93,8 @@
                             <a href="#features" class="btn btn-default btn-lg">Cara Penggunaan</a>
                         </div>
 
-                    </li>                   
-                    
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -105,11 +105,11 @@
 
     <div class="wrapper">
 
-        
+
 
         <section id="about">
             <div class="container">
-                
+
                 <div class="section-heading scrollpoint sp-effect3">
                     <h1>Tentang Kami</h1>
                     <div class="divider"></div>
@@ -150,7 +150,7 @@
                                 <h3 class="media-heading">Messages Inbox</h3>
                                 Gunakan fitur contact us untuk keterangan lebih lanjut dan error report.
                             </div>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
             </div>
@@ -314,12 +314,12 @@
                 </div>
                 <div class="rights">
                     <p>Copyright &copy; 2014</p>
-                    <p>Template by <a href="http://www.scoopthemes.com" target="_blank">ScoopThemes</a></p>
+                    <p>By<a href="#" target="_blank">Fatho</a></p>
                 </div>
             </div>
         </footer>
 
-        
+
 
     </div>
     <script src="<?php echo base_url('resource')?>/assets/js/jquery-1.11.1.min.js"></script>

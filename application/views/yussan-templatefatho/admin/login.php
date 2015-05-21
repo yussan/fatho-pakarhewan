@@ -9,13 +9,13 @@
       </div>
   </div>
 
-  <div class="wrapper">    
-      <section id="about"> 
-          <div class="container">                
+  <div class="wrapper">
+      <section id="about">
+          <div class="container">
             <div class="section-heading scrollpoint sp-effect3">
                 <h1>Admin Login</h1>
-                <div class="divider"></div>               
-                <p><a href="<?php echo site_url();?>">Kembali Kehalaman Utama</a></p>          
+                <div class="divider"></div>
+                <p><a href="<?php echo site_url();?>">Kembali Kehalaman Utama</a></p>
             </div>
             <div class="row">
             <div class="col-md-offset-4 col-md-4">
@@ -35,7 +35,7 @@
                         </center>
                     </form>
                 </div>
-            </div>            
+            </div>
         </div>
     </section>
 
@@ -52,7 +52,7 @@
             </div>
             <div class="rights">
                 <p>Copyright &copy; 2014</p>
-                <p>Template by <a href="http://www.scoopthemes.com" target="_blank">ScoopThemes</a></p>
+                <p>By <a href="#" target="_blank">Fatho</a></p>
             </div>
         </div>
     </footer>

@@ -9,37 +9,27 @@
       </div>
   </div>
 
-  <div class="wrapper">    
-      <section id="about"> 
-          <?php 
+  <div class="wrapper">
+      <section id="about">
+          <?php
           $view = $this->session->userdata('result');
           ?>
-          <div class="container">                
+          <div class="container">
             <div class="section-heading scrollpoint sp-effect3">
                 <h1>Hasil Akhir</h1>
                 <div class="divider"></div>
                 <p>Berikut adalah hasil berhitungan dari sistem pakar</p>
-                <p><a href="<?php echo site_url('');?>">Kembali Kehalaman Utama</a></p>          
+                <p><a href="<?php echo site_url('');?>">Kembali Kehalaman Utama</a></p>
             </div>
             <div class="col-lg-10 col-lg-offset-1">
-                <?php
-                $isCompleted =$this->M_hewan->isCompleted($this->uri->segment(3));
-                if($isCompleted){
-                    ?>                    
-                    <form method="POST" action="<?php echo site_url('start');?>">
-                        <div class="col-lg-12">
-                            <br/>
-                            <div style="margin-bottom:10px;" class="col-lg-12"><button type="submit" data-toggle="tolltip" title="deskripsi mata satu" style="width:100%" class="btn btn-lg btn-primary">Lanjut</button></div> 
-                        </div>
-                    </form>
-                <?php } ?>
+
                     <?php foreach($view as $v):
                     $view = $this->M_hewan->detailHewan($v['kode']);
                     ?>
                     <div class="row">
                         <div class="col-md-4">
                             <h1><?php echo $view['nm_hewan'];?></h1>
-                            <img src="<?php echo base_url('resource/images/'.$view['gambar_hewan']);?>" style="width:100%">
+                            <img src="<?php echo base_url('resource/images/hewan/'.$view['gambar_hewan']);?>" style="width:100%">
                         </div>
                         <div class="col-md-8">
                             <h1>Keterangan</h1>
@@ -48,17 +38,19 @@
                     </div>
                     <hr/>
                 <?php endforeach; ?>
-                 <?php
-                $isCompleted =$this->M_hewan->isCompleted($this->uri->segment(3));
-                if($isCompleted){
-                    ?>                    
-                    <form method="POST" action="<?php echo site_url('start');?>">
-                        <div class="col-lg-12">
-                            <br/>
-                            <div style="margin-bottom:10px;" class="col-lg-12"><button type="submit" data-toggle="tolltip" title="deskripsi mata satu" style="width:100%" class="btn btn-lg btn-primary">Lanjut</button></div> 
-                        </div>
-                    </form>
-                <?php } ?>
+                <?php
+              $isCompleted =$this->M_hewan->isCompleted($this->uri->segment(3));
+              if($isCompleted){
+                   ?>
+                   <center>
+                   <form method="POST" action="<?php echo site_url('start');?>">
+                       <div class="col-lg-12">
+                           <br/>
+                           <div style="margin-bottom:10px;" class="col-lg-12"><button type="submit" data-toggle="tolltip" title="deskripsi mata satu" class="btn btn-lg btn-primary">Lanjut</button></div>
+                       </div>
+                   </form>
+                </center>
+              <?php } ?>
             </div>
         </section>
 
@@ -75,7 +67,7 @@
                 </div>
                 <div class="rights">
                     <p>Copyright &copy; 2014</p>
-                    <p>Template by <a href="http://www.scoopthemes.com" target="_blank">ScoopThemes</a></p>
+                    <p>By <a href="#" target="_blank">Fatho</a></p>
                 </div>
             </div>
         </footer>

@@ -9,11 +9,11 @@
       </div>
   </div>
 
-  <div class="wrapper">    
-      <section id="about"> 
+  <div class="wrapper">
+      <section id="about">
           <ol class="breadcrumb">
              <li><strong>Klasifikasi</strong></li>
-             <?php 
+             <?php
              $session = $this->session->userdata('morfologi');
            $CountSession = count($session);//jumlah session yang menjadi step sekarang
            foreach($session as $s):
@@ -23,16 +23,16 @@
             }else{
                 $morfologi = $s['name'];
             }
-            ?>            
+            ?>
             <li><a href="#"><?php echo $morfologi;?></a></li>
         <?php endforeach; ?>
-    </ol> 
-    <div class="container">                
+    </ol>
+    <div class="container">
         <div class="section-heading scrollpoint sp-effect3">
             <h1>Klasifikasi Animalia</h1>
             <div class="divider"></div>
             <p>Silahkan pilih salah satu</p>
-            <p><a href="<?php echo site_url();?>">Kembali Kehalaman Utama</a></p>          
+            <p><a href="<?php echo site_url();?>">Kembali Kehalaman Utama</a></p>
         </div>
         <div class="row">
             <form method="POST" action="<?php echo site_url('start/nextstep');?>">
@@ -56,12 +56,12 @@
                                 <div style="margin-bottom:10px;" class="col-lg-12"><button name="<?php echo $vm['kd_ciri_morfologi']?>" type="submit" data-toggle="<?php echo $vm['desk_morf']?>" title="deskripsi mata satu" style="width:100%" class="btn btn-lg btn-primary"><?php echo $vm['nm_ciri_morfologi']?></button></div>
                             <?php endforeach; ?>
                     <?php }else{//limit view morfologi
-                        
-                    } ?>    
+
+                    } ?>
                     <?php } ?>
                 </div>
             </form>
-        </div>            
+        </div>
     </div>
 </section>
 
@@ -78,7 +78,7 @@
         </div>
         <div class="rights">
             <p>Copyright &copy; 2014</p>
-            <p>Template by <a href="http://www.scoopthemes.com" target="_blank">ScoopThemes</a></p>
+            <p>By<a href="#" target="_blank">Fatho</a></p>
         </div>
     </div>
 </footer>
